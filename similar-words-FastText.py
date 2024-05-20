@@ -1,4 +1,5 @@
 import os
+import gensim
 import gensim.downloader as api
 
 # Diretório onde o modelo será salvo
