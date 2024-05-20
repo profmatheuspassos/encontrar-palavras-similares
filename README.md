@@ -1,4 +1,3 @@
-```markdown
 # Encontrar Palavras Similares
 
 ## Visão geral do script
