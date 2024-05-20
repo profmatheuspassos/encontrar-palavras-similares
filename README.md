@@ -2,7 +2,7 @@
 
 ## Visão geral do script
 
-Este script em Python permite encontrar palavras semelhantes usando um modelo pré-treinado de Word2Vec. Ele carrega ou baixa o modelo Word2Vec e permite que você insira palavras para obter uma lista de palavras semelhantes com suas respectivas similaridades.
+Este repositório contém scripts em Python que permitem encontrar palavras semelhantes usando modelos pré-treinados de Word2Vec e FastText. Os scripts carregam ou baixam os modelos e permitem que você insira palavras para obter uma lista de palavras semelhantes com suas respectivas similaridades.
 
 ## Funcionalidades
 
