@@ -15,7 +15,7 @@ def load_or_download_model():
     # Verificar se o modelo já foi salvo localmente
     if os.path.exists(MODEL_PATH):
         print("Carregando modelo local...")
-        model = gensim.models.FastText.load(MODEL_PATH)
+        model = gensim.models.KeyedVectors.load(MODEL_PATH)
     else:
         print("Baixando o modelo FastText pré-treinado...")
         model = api.load("fasttext-wiki-news-subwords-300")
